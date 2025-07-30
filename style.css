@@ -1,0 +1,94 @@
+*{
+    margin:0%;
+    padding: 0%;
+    background-color: rgb(175, 175, 238);
+}
+.fullheader{
+    margin: 0%;
+    padding: 0%;
+    height: 80px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+.letf{
+    height: 80px;
+    width: 18%;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    
+}
+.logo{
+    background-color: white;
+    padding: 30px;
+
+}
+.logo h1{
+    background-color: white;
+    padding-left: 25px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.right{
+    height: 80px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    gap: 950px;
+    background-color: white;
+}
+.icons{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    background-color: white;
+}
+.icons img{
+    background-color: white;
+    
+}
+.info{
+     height: 30px;
+    width: 30xpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+}
+.info img{
+    background-color: white;
+}
+.fullsctor{
+    display: none;
+}
+.noitfy{
+    cursor: pointer;
+}
+.mail{
+    cursor: pointer;
+}
+.search{
+    height: 50px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.search input{
+    background-color: beige;
+    padding: 10px;
+}
+@media only screen and (max-width: 900px){
+    .fullheader{
+        display: none;
+    }
+}
