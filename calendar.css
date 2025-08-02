@@ -1,0 +1,13 @@
+.right{
+    height: 80%;
+    width: 100%;
+    border: 1px solid black;
+}
+.calen{
+    height: 80%;
+    width: 100%;
+}
+.icalen iframe{
+     height: 80px;
+    width: 100%;
+}

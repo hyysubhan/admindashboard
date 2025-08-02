@@ -1,0 +1,7 @@
+.no{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}

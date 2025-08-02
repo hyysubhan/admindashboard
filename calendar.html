@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clendar</title>
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-    
 </head>
+
 <body>
-    <header>
+        <header>
         <div class="bighdr">
             <div class="left">
                 <div class="logo">
@@ -53,26 +51,15 @@
             <a href="chat.html" style="text-decoration: none; color: black;"><p>Chat</p></a>
         </div>
     </div>
-    <div class="allchart">
-        <div class="bars">
-         <div id="chart_div"></div>
-         <div id="chart_div2"></div>
-         <div id="chart_div3"></div>
-         </div>
-         <div class="geonline">
-            <div class="geo">
-                <p style="background-color: white; text-align: center;">Monthly Import</p>
-                <div id="regions_div"></div>
+        <div class="right">
+            <div class="calen">
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?src=304c5c04dd8dc5f36b31c75606f008c351da5a25ba740685038932705a2cae8f%40group.calendar.google.com&ctz=UTC"
+                    style="border: 0" width="800" height="578" frameborder="0" scrolling="no"></iframe>
             </div>
-            <div class="table">
-                <div id="table_div"></div>
-            </div>
-          </div>
-          </div>
-</main>
-
+        </div>
+    </main>
     <script src="logic.js"></script>
-
-
 </body>
+
 </html>
